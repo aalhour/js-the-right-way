@@ -21,6 +21,10 @@
         "url":"#the-good-parts"
       },
       {
+        "title": "Must See",
+        "url": "#must-see"
+      },
+      {
         "title":"Типовые решения",
         "url":"#patterns"
       },
@@ -195,8 +199,13 @@
             "description":"Создан командой из Google. Angular.js похож на полифилл для будущих версий HTML."
           },
           {
+            "name":"Angular",
+            "url":"https://angular.io",
+            "description":"Framework.Mobile и рабочий стол. Один из способов создания приложений с угловым и использовать навыки и программный код для создания приложений для каждой цели развертывания. Для веб-страниц, мобильный Интернет, мобильный телефон родной и родной рабочий стол."
+          },
+          {
             "name":"Cappuccino",
-            "url":"http://cappuccino.org",
+            "url":"http://www.cappuccino-project.org",
             "description":"Cappuccino проект с открытым кодом, который подзволяет легко создавать приложения, похожие на десктопный, но так чтобы они работали в браузере."
           },
           {
@@ -303,11 +312,6 @@
             "name":"Motio",
             "url":"http://darsa.in/motio/",
             "description":"Motio - маленькая JavaScript библиотека для простых, но мощных анимаций и панарам на базе спрайтов."
-          },
-          {
-            "name":"Anima.js",
-            "url":"http://lvivski.com/anima/",
-            "description":"С Anima очень легко анимировать сотни объектов. Каждый объект может иметь свои характеристики, что упрощает моделирование объектов реального мира."
           }
         ]
       }
@@ -644,11 +648,6 @@
             "description":"by <a target=\"_blank\" href=\"http://calculist.org\">David Herman</a>"
           },
           {
-            "name":"Functional JavaScript",
-            "url":"http://functionaljavascript.com",
-            "description":"by <a target=\"_blank\" href=\"http://blog.fogus.me\">Michael Fogus</a>"
-          },
-          {
             "name":"JavaScript Allongé",
             "url":"https://leanpub.com/javascriptallongesix",
             "description":"by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
@@ -739,11 +738,6 @@
   "podcasts":{
     "title":"Подкасты",
     "links":[
-      {
-        "name":"Ember Hot Seat",
-        "url":"http://emberhotseat.com",
-        "description":""
-      },
       {
         "name":"JavaScript Jabber",
         "url":"https://devchat.tv/js-jabber/",

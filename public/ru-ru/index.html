@@ -9,11 +9,11 @@
           });
         </script>
         <meta charset="utf-8">
-        <title>JS: The Right Way</title>
+        <title>JS: Правильный путь</title>
         <meta property="og:image" content="https://camo.githubusercontent.com/aaff5164e88291cf2bc33cfbdc259ce4d34935f3/687474703a2f2f692e696d6775722e636f6d2f6a6145626438302e706e67">
-        <meta property="og:title" content="JS: The Right Way">
-        <meta property="og:site_name" content="JS: The Right Way">
-        <meta name="description" property="og:description" content="A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web">
+        <meta property="og:title" content="JS: Правильный путь">
+        <meta property="og:site_name" content="JS: Правильный путь">
+        <meta name="description" property="og:description" content="Краткий справочник по лучшим практикам написания кода на JavaScript -- ссылки на типовые решения и обучающие материалы из Сети">
         <meta property="og:url" content="http://www.jstherightway.org">
         <meta property="og:type" content="website">
         <meta name="robots" content="index,follow,archive">
@@ -46,16 +46,16 @@
 
             <div id="dropdown">
                 <input id="toggle" type="checkbox">
-                <label for="toggle"><span class="flag">English</span></label>
+                <label for="toggle"><span class="flag">Русский</span></label>
                 <ul>
                     <li><a href="/pt-br"> Português </a></li>
                     <li><a href="/ko-kr"> 한국어 </a></li>
                     <li><a href="/es-es"> Español </a></li>
                     <li><a href="/de-de"> German </a></li>
+                    <li><a href="/"> English </a></li>
                     <li><a href="/zh-tw"> 繁體中文 </a></li>
                     <li><a href="/zh-cn"> 简体中文 </a></li>
                     <li><a href="/fa-ir"> فارسی </a></li>
-                    <li><a href="/ru-ru"> Русский </a></li>
                 </ul>
             </div>
         </header>
@@ -91,18 +91,18 @@
 
         <section class="welcome">
             <div class="wrapper">
-              <h1>Hey, you!</h1>
+              <h1>Привет!</h1>
 
 <p>
-    This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
+  Это руководство призвано ввести в курс новичков в  Javascript и помочь опытным разработчикам больше узнать и лучших практиках и подходах.
 </p>
 
 <p>
-    Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.
+  Несмотря на название, это руководство не обязательно означает "Единственно верный" способ работать с JavaScript.
 </p>
 
 <p>
-    We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.
+  Просто мы решили собрать все статьи, советы и секреты от ведущих разработчиков в одном месте. Так как мы говорим о выдающихся людях, мы можем сказачать что это "правильный путь", или лучший способ делать подобные вещи.
 </p>
 
             </div>
@@ -110,57 +110,57 @@
 
         <section class="main" id="main">
             <div class="wrapper">
-                <h1><a href="#main">Choose your path</a></h1>
+                <h1><a href="#main">Выбери свой путь</a></h1>
 
                 <ul>
-                    <li><a href="#getting-started">Getting Started</a></li>
-                    <li><a href="#js-code-style">JavaScript Code Style</a></li>
-                    <li><a href="#the-good-parts">The Good Parts</a></li>
+                    <li><a href="#getting-started">С чего начать</a></li>
+                    <li><a href="#js-code-style">JavaScript - стиль написания кода</a></li>
+                    <li><a href="#the-good-parts">Сильные стороны</a></li>
                     <li><a href="#must-see">Must See</a></li>
-                    <li><a href="#patterns">Patterns</a></li>
-                    <li><a href="#testing-tools">Testing Tools</a></li>
-                    <li><a href="#frameworks">Frameworks</a></li>
-                    <li><a href="#game-engines">Game Engines</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#reading">Reading</a></li>
-                    <li><a href="#podcasts">Podcasts</a></li>
-                    <li><a href="#screencasts">Screencasts</a></li>
-                    <li><a href="#whotofollow">Who to follow</a></li>
-                    <li><a href="#paas">PaaS Providers</a></li>
-                    <li><a href="#helpers">Helpers</a></li>
+                    <li><a href="#patterns">Типовые решения</a></li>
+                    <li><a href="#testing-tools">Инструменты для тестирования</a></li>
+                    <li><a href="#frameworks">Фреймворки</a></li>
+                    <li><a href="#game-engines">Игровые движки</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#reading">К прочтению</a></li>
+                    <li><a href="#podcasts">Подкасты</a></li>
+                    <li><a href="#screencasts">Скринкасты</a></li>
+                    <li><a href="#whotofollow">За кем стоит понаблюдать</a></li>
+                    <li><a href="#paas">PaaS ресурсы</a></li>
+                    <li><a href="#helpers">Полезности</a></li>
                 </ul>
             </div>
         </section>
 
         <section class="section" id="getting-started">
             <div class="wrapper">
-                <h1><a href="#getting-started">GETTING STARTED</a></h1>
-                <h3>ABOUT</h3>
+                <h1><a href="#getting-started">С ЧЕГО НАЧАТЬ</a></h1>
+                <h3>О ЯЗЫКЕ</h3>
 
 <p>
-    Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation.
+  Созданный компанией Netscape в 1995 как расширение HTML для браузера  Netscape Navigator 2.0, Javascript имел в качестве основной функции - манипулирование HTML-документом и проверку данных в формах.
 
-    Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today.
+  До того, как он стал известен в мире под современным названием, Javascript назывался Mocha. Когда он выпустился в первой бета-версии он назывался LiveScript. Свое текущее название он приобрел только после выпуска компанией Sun Microsystems.
 
-    Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language.
+  Из-за похожести названий люди иногда путают Javascript и Java. Эти языки имеют похожий синтаксис, но в остальном они сильно отличаются.
 
-    Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser.
+  В отличии от C, C# и Java, Javascript - интерпретируемый язык. Это означает, что он нуждается в интепретаторе. В случае с Javascript интерпретатором является браузер.
 </p>
 
-<h3>CURRENT VERSION</h3>
+<h3>ТЕКУЩАЯ ВЕРСИЯ</h3>
 
 <p>
-    The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. As of June 2015 the spec for ES6/ES2015 has been approved. Following the new annual release cycle, ES7/ES2016 has been adopted in June 2016. See the ECMAScript 2016 Language Specification at <a target="_blank" href="http://www.ecma-international.org/ecma-262/7.0/index.html">Ecma International</a>.
+  Стандарт Javascript называется ECMAScript. По состоянию на 2012 год, все современные браузеры полностью поддерживают ECMAScript 5.1. Более старые браузеры поддерживают по-крайней мере ECMAScript 3. В июне 2015 была утверждена спецификация ES6/ES2015. Следуя новому годовму релизному циклу, ES7/ES2016 был утвержден в июне 2016. Подробнее читайте о  спецификации языка ECMAScript 2016 на сайте <a target="_blank" href="http://www.ecma-international.org/ecma-262/7.0/index.html">Ecma International</a>.
 </p>
 
 <p>
-    A good reference to versions, references and news about JavaScript can be found at the <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
+  Отличное описание версий, ссылок и изменений JavaScript можно найти на сайте <a target="_blank" href="https://developer.mozilla.org/en-US/docs/JavaScript">Mozilla Developer Network</a>.
 </p>
 
-<h3>THE DOM</h3>
+<h3>DOM</h3>
 
 <p>
-    The Document Object Model (DOM) is an API for HTML and XML documents. It provides a structural representation of the document, enabling you to modify its content and visual presentation by using a scripting language such as JavaScript. See more at <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>.
+    Объектная модель документа (DOM) - это API, дающее возможность работать с HTML и XML документами. Она обеспечивает структурное представление документа, позволяя изменять содержимое и визуальное представление посредством скриптовых языков, таких как Javascript. Подробнее на странице <a target="_blank" href="https://developer.mozilla.org/en-US/docs/DOM">Mozilla Developer Network - DOM</a>.
 </p>
 
             </div>
@@ -168,118 +168,121 @@
 
         <section class="section" id="js-code-style">
             <div class="wrapper">
-                <h1><a href="#js-code-style">JS CODE STYLE</a></h1>
-                <h3>Conventions</h3>
+                <h1><a href="#js-code-style">JS - СТИЛЬ НАПИСАНИЯ КОДА</a></h1>
+                <h3>Условные обозначения</h3>
 
 <p>
-    As every language, JavaScript has many code style guides. Maybe the most used and recommended is the <a target="_blank" href="https://google.github.io/styleguide/javascriptguide.xml">Google Code Style Guide for JavaScript</a>, but we recommend you read <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
+    Как любой другой язык, JavaScript имеет множество стилей кодирования. Возможно самый используемый и рекомендуемый это <a target="_blank" href="https://google.github.io/styleguide/javascriptguide.xml">Руководство по оформлению Javascript кода от Google Code</a>, но мы рекомендуем ознакомиться с <a target="_blank" href="https://github.com/rwldrn/idiomatic.js/">Idiomatic.js</a>.
 </p>
 
-<h3>Linting</h3>
+<h3>Валидация кода</h3>
 
 <p>
-    Nowadays the best tool for linting your JavaScript code is <a target="_blank" href="http://www.jshint.com/">JSHint</a>. We recommend that whenever possible you verify your code style and patterns with a Lint tool.
+    На сегодня лучшим инструментом для статической валидации Javascript кода является <a target="_blank" href="http://www.jshint.com/">JSHint</a>. Мы рекомендуем всегда, когда возможно, использовать валидаторы (линтеры) для проверки вашего кода и правил оформления.
 </p>
 
         </div></section>
 
         <section class="section" id="the-good-parts">
             <div class="wrapper">
-                <h1><a href="#the-good-parts">THE GOOD PARTS</a></h1>
-                <h3>Object Oriented</h3>
+                <h1><a href="#the-good-parts">СИЛЬНЫЕ СТОРОНЫ</a></h1>
+                <h3>Объектно ориентированный</h3>
 
 <p>
-    JavaScript has strong object-oriented programming capabilities, even though some debates have taken place due to the differences in object-oriented JavaScript compared to other languages.
+    Javascript имеет сильные объектно-ориентированные возможности. Несмотря на некоторые споры которые имеют место вокруг различий ООП в javascript по сравнению с другими языками.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Introduction to Object-Oriented JavaScript</a>
+    Подробнее: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript">Введение в объектно-ориентированный JavaScript</a>
 </p>
 
-<h3>Anonymous Functions</h3>
+<h3>Анонимные функции</h3>
 
 <p>
-    Anonymous functions are functions that are dynamically declared at runtime. They’re called anonymous functions because they aren’t given a name in the same way as normal functions.
+    Анонимные функции - функции которые динамически объявляются в процессе выполнения. Они называются анонимными потому, что они не именуются в отличие от обычных функций.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">JavaScript anonymous functions</a>
+    Подробнее: <a target="_blank" href="http://helephant.com/2008/08/23/javascript-anonymous-functions/">Анонимные функции в JavaScript</a>
 </p>
 
-<h3>Functions as First-class Objects</h3>
+<h3>Функции как объекты первого класса</h3>
 
 <p>
-    Functions in JavaScript are first class objects. This means that JavaScript functions are just a special type of object that can do all the things that regular objects can do.
+  Функции в Javascript - объекты первого класса. Это означает что функции это особый класс объектов, которые могут делать все то же самое что могут делать обычные объекты.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Functions are first class objects in JavaScript</a>
+    Подробнее: <a target="_blank" href="http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/">Функции как объекты первого класса в JavaScript</a>
 </p>
 
-<h3>Loose Typing</h3>
+<h3>Нестрогая типизация</h3>
 
 <p>
-    For many front-end developers, JavaScript was their first taste of a scripting and/or interpretive language. To these developers, the concept and implications of loosely typed variables may be second nature. However, the explosive growth in demand for modern web applications has resulted in a growing number of back-end developers that have had to dip their feet into the pool of client-side technologies. Many of these developers are coming from a background of strongly typed languages, such as C# or Java, and are unfamiliar with both the freedom and the potential pitfalls involved in working with loosely typed variables.
+    Для многих фронтенд разработчиков Javascript был первым опытом в скриптовых/интерпретируемых языках. Для этих разработчиков принцип и реализация нестрогой типизации может быть само собой разумеещимся.
+    Однако взрывной рост популярности современных веб-приложений приводит к тому, что все большее число бэкенд разработчиков вынуждено погружаться в мир клиентских технологий. Многие из этих разработчиков приходят с опытом работы с типизироваными языками вроде C# или Java, и им кажутся странными как вольности допускаемые нестрогой типизацией, так и подводные камни, которые она в себе скрывает.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Understanding Loose Typing in JavaScript</a>
+    Подробнее: <a target="_blank" href="http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html">Понимание нестрогой типизации в JavaScript</a>
 </p>
 
-<h3>Scoping and Hoisting</h3>
+<h3>Область видимости и всплытие определений</h3>
 
 <p>
-    <b>Scoping:</b> In JavaScript, functions are our <i>de facto</i> scope delimiters for declaring vars, which means that usual blocks from loops and conditionals (such as if, for, while, switch and try) DON'T delimit scope, unlike most other languages. Therefore, those blocks will share the same scope as the function which contains them. This way, it might be dangerous to declare vars inside blocks as it would seem the var belongs to that block only.
+    <b>Область видимости:</b> В JavaScript, функции <i>по-факту</i> являются ограничениями области видимости при объявлении переменных.
+    Это означает, что обычные блоки из циклов и условных выражений (такие, как if, for, while, switch и try) НЕ ОГРАНИЧИВАЮТ область видимости, в отличии от большинства языков. Так что эти блоки имеют ту же самую область видимости, что и функции в которых они используются. Таким образом нужно быть внимательнее, объявляя переменные внутри блоков, так как может показаться, что переменные доступны только внутри блока (а это не так).
 </p>
 
 <p>
-    <b>Hoisting:</b> On runtime, all var and function declarations are moved to the beginning of each function (its scope) - this is known as Hoisting. Having said so, it is a good practice to declare all the vars altogether on the first line, in order to avoid false expectations with a var that got declared late but happened to hold a value before - this is a common problem for programmers coming from languages with block scope.
+    <b>"Всплытие":</b> При выполнении все объявления переменных var и функций перемещаются в начало функции (перед ее "телом"). Это называется "всплытием" (hoisting). Так что хорошей практикой является объявление переменных в начале функции, чтобы явно задать область видимости и избежать двусмысленности, что возможно при объявлении переменных/функций ниже по коду. Это общая проблема для программистов, которые раньше писали на языках с блочной областью видимости.
+    Это поведение получило корректировки в новом стандарте (ES6/ES2015 - почитайте про let/const).
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript Scoping and Hoisting</a>
+    Подробнее: <a target="_blank" href="http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html">JavaScript - про всплытие и область видимости</a>
 </p>
 
-<h3>Function Binding</h3>
+<h3>Контекст выполнения</h3>
 
 <p>
-    Function binding is most probably the least of your concerns when beginning with JavaScript, but when you realize that you need a solution to the problem of how to keep the context of this within another function, then you might realize that what you actually need is <b>Function.prototype.bind()</b>.
+    Контекст выполнения - это наименьшая из ваших проблем, когда вы начинаете работать с Javascript. Но однажды вы понимаете, что решение проблемы, которая у вас есть, заключается в вызове другой функции с сохранением текущего контекста. И вот в этот момент вы поймете, что <b>Function.prototype.bind()</b> - это то, что вам нужно. А еще вы можете почитать про "стрелочные функции" из нового стандарта Javascript.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Understanding JavaScript’s Function.prototype.bind</a>
+    Подробнее: <a target="_blank" href="http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/">Что такое Function.prototype.bind в JavaScript</a>
 </p>
 
-<h3>Closure Function</h3>
+<h3>Замыкания</h3>
 
 <p>
-    Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created in.
-It is an important concept to understand as it can be useful during development, like emulating private methods. It can also help to learn how to avoid common mistakes, like creating closures in loops.
+  Замыкания - это функции, которые ссылаются на переменные вне себя. Другими словами функции посредством замыкания получают доступ к переменным, которые доступны в месте объявления функции.
+  Очень важно это понимать, так как это часто используется при разработке, пример для эмуляции приватных методов. Это так же будет полезно, чтобы избежать частых ошибок, например создание замыканий в циклах.
  </p>
 
 <p class="source">
-    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Closures</a>
+    Подробнее: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures/">MDN - Замыкания</a>
 </p>
 
-<h3>Strict mode</h3>
+<h3>Строгий режим</h3>
 
 <p>
-    ECMAScript 5's strict mode is a way to opt in to a restricted variant of JavaScript. Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally.
+    Строгий режим из 5-й редакции ECMAScript - это способ ограничить возможности Javascript. Строгий режим - не просто подмножество, он намеренно ограничивает возможности вашего кода. Браузеры с поддержкой строгого режима и без него будут обрабатывать ваш код по-разному, так что не стоит рассчитывать на строгий режим без соответствующего тестирования вашего кода в обоих случаях. Строгий и нестрогий режимы могут сосуществовать (например, строгий режим может распространяться на отдельные функции), так что переписывать свой код под строгий режим можно постепенно.
  </p>
 
 <p class="source">
-    Source: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Strict mode</a>
+    Подробнее: <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode/">MDN - Строгий режим</a>
 </p>
 
-<h3>Immediately-Invoked Function Expression (IIFE)</h3>
+<h3>Самовызывающиеся функции (IIFE)</h3>
 
 <p>
-   An immediately-invoked function expression is a pattern which produces a lexical scope using JavaScript's function scoping. Immediately-invoked function expressions can be used to avoid variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function.<br><br>
-   <i>This pattern has been referred to as a self-executing anonymous function, but <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) introduced the term IIFE as a more semantically accurate term for the pattern</i>.
+  Самовызывающиеся функции - это подход, который позволяет создать лексическое окружение использую функциональную область видимости в Javascript. Самовызывающиеся функции могут быть использованы, чтобы избежать всплытия переменных за пределы блока, предотвратить загрязнение глобальной области видимости и обеспечить доступ к публичным методам сохраняя недоступность данных, которые объявлены внутри функции.<br><br>
+   <i>Этот подход основывается на самовызывающихся анонимных функциях, но <a target="_blank" href="http://twitter.com/cowboy">@cowboy</a> (Ben Alman) ввел понятие IIFE как более семантически-верное для обозначения этого шаблона</i>.
 </p>
 
 <p class="source">
-    Source: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Immediately-Invoked Function Expression (IIFE)</a>
+    Подробнее: <a target="_blank" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Немедленно вызываемыми функциональные выражения (IIFE)</a>
 </p>
 
             </div>
@@ -302,75 +305,75 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="patterns">
             <div class="wrapper">
-                <h1><a href="#patterns">PATTERNS</a></h1>
-                
-                <h3>Description</h3>
+                <h1><a href="#patterns">ТИПОВЫЕ РЕШЕНИЯ</a></h1>
+
+                <h3>Описание</h3>
 
                 <p>
-                    While JavaScript contains design patterns that are exclusive to the language, many classical design patterns can also be implemented.
+                    Javascript содержит достаточное количество шаблонов, специфических для языка. Однако так же могут быть использованы многие классические шаблоны проектирования.
                 </p>
 
                 <p>
-                    A good way to learn about these is <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a>’s open source book <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns</a>, and the links below are (in the majority) based on it.
+                    Хорошим способом с этим разобраться будет чтение книги <a target="_blank" href="https://twitter.com/addyosmani">Addy Osmani</a> <a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">Learning JavaScript Design Patterns (Изучение Шаблонов Проектирования Javascript)</a>, и ссылок ниже, которые частично взяты из книги.
                 </p>
 
-                <h3>Design Patterns</h3>
+                <h3>Шаблоны проектирования</h3>
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#factorypatternjavascript">Factory</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#prototypepatternjavascript">Prototype</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript">Mixin</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript">Singleton</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#factorypatternjavascript">Фабрика</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#prototypepatternjavascript">Прототип</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mixinpatternjavascript">Примесь</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#singletonpatternjavascript">Синглтон</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                    Creational Design Patterns
+                    Порождающие шаблоны
                 </p>
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery">Adapter</a></li>
-                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-bridge/">Bridge</a></li>
-                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-composite/">Composite</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript">Decorator</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#facadepatternjavascript">Facade</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailflyweight">Flyweight</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Module</a></li>
-                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-proxy/">Proxy</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Revealing Module</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery">Адаптер</a></li>
+                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-bridge/">Мост</a></li>
+                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-composite/">Композиция</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript">Декоратор</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#facadepatternjavascript">Фасад</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailflyweight">Приспособленец</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">Модуль</a></li>
+                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-proxy/">Прокси</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript">Открытый модуль</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                    Structural Design Patterns
+                    Структурные шаблоны
                 </p>
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/">Chain of Responsibility</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript">Command</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript">Mediator</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript">Observer</a></li>
+                        <li><a target="_blank" href="http://www.joezimjs.com/javascript/javascript-design-patterns-chain-of-responsibility/">Цепочка обязанностей</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#commandpatternjavascript">Команда</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#mediatorpatternjavascript">Посредник</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript">Наблюдатель</a></li>
                     </ul>
                 </section>
 
                 <p class="source">
-                    Behavioral Design Patterns
+                    Поведенческие шаблоны
                 </p>
 
-                <h3>MV* Patterns</h3>
+                <h3>Шаблоны MV*</h3>
 
                 <section class="txt">
-                    There are some implementations of the traditional MVC Pattern and its variations in JavaScript.
+                   Есть несколько реализаций традиционного MVC паттерна и его вариаций в Javascript.
                 </section>
 
                 <section class="txt">
                     <ul>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvc">MVC Pattern</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvp">MVP Pattern</a></li>
-                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvvm">MVVM Pattern</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvc">Шаблон MVC</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvp">Шаблон MVP</a></li>
+                        <li><a target="_blank" href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailmvvm">Шаблон MVVM</a></li>
                     </ul>
                 </section>
 
@@ -379,10 +382,10 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="testing-tools">
             <div class="wrapper">
-                <h1><a href="#testing-tools">TESTING TOOLS</a></h1>
-                <h3>Description</h3>
+                <h1><a href="#testing-tools">ИНСТРУМЕНТЫ ДЛЯ ТЕСТИРОВАНИЯ</a></h1>
+                <h3>Описание</h3>
 
-<p>Various libraries and frameworks to do tests in JavaScript.</p>
+<p>Различные библиотеки и фреймворки для тестирования кода на JavaScript.</p>
 
 
                 <h3>Links</h3>
@@ -393,7 +396,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Maintained by <a target="_blank" href="https://github.com/visionmedia">TJ Holowaychuk</a>
+                  Поддерживается <a target="_blank" href="https://github.com/visionmedia">TJ Holowaychuk</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -402,7 +405,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Maintained by <a target="_blank" href="https://github.com/jquery">jQuery</a>
+                  Поддерживается <a target="_blank" href="https://github.com/jquery">jQuery</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -411,7 +414,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Maintained by <a target="_blank" href="https://github.com/pivotal/jasmine">Pivotal Labs</a>
+                  Поддерживается <a target="_blank" href="https://github.com/pivotal/jasmine">Pivotal Labs</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -420,7 +423,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Maintained by the team behind AngularJS. Mostly by <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
+                  Поддерживается командой АнгуларJS. По-большей части <a target="_blank" href="https://github.com/vojtajina">Vojta Jina</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -429,7 +432,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Maintained by <a target="_blank" href="http://www.sitepen.com">Sitepen</a>
+                  Поддерживается <a target="_blank" href="http://www.sitepen.com">Sitepen</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -447,7 +450,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. Created by <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS community</a>
+                  Независимый набор тестовых 'шпионов', моков и заглушек для JavaScript. Без зависимостей, работает с любым тестовым фреймворком. Создан <a target="_blank" href="https://github.com/cjohansen/Sinon.JS">Sinon.JS community</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -456,7 +459,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  A test helper to mock functions and the XHR object, maintained by <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
+                  Вспомогательные утилиты для мока функций Javascript и объекта XHR, поддерживается <a target="_blank" href="http://leobalter.github.io">Leo Balter</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -465,7 +468,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Test runner with asynchronous tests, maintained by <a target="_blank" href="https://twitter.com/sindresorhus">Sindre Sorhus</a>
+                  Тест-ранер (утилита для запуска тестов) с асинхронными тестами, поддерживается <a target="_blank" href="https://twitter.com/sindresorhus">Sindre Sorhus</a>
                 </p>
                 <section class="txt">
                     <ul>
@@ -474,7 +477,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Painless JavaScript Testing, maintained by <a target="_blank" href="https://github.com/facebook">Facebook</a>
+                  Безболезненное тестирование Javascript, поддерживается <a target="_blank" href="https://github.com/facebook">Facebook</a>
                 </p>
 
             </div>
@@ -482,9 +485,9 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="frameworks">
             <div class="wrapper">
-                <h1><a href="#frameworks">FRAMEWORKS</a></h1>
+                <h1><a href="#frameworks">ФРЕЙМВОРКИ</a></h1>
 
-                <h3>GENERAL PURPOSE</h3>
+                <h3>ОБЩЕГО НАЗНАЧЕНИЯ</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://jquery.com">jQuery</a></li>
@@ -492,7 +495,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  jQuery is a fast, small, and feature-rich JavaScript library. Built by <a target="_blank" href="https://twitter.com/jeresig">John Resig</a>.
+                  jQuery - это быстрая, маленькая библиотека с богатым функционалом. Создана <a target="_blank" href="https://twitter.com/jeresig">John Resig</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -501,7 +504,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Built by Yahoo!, YUI is a free, open source JavaScript and CSS library for building richly interactive web applications. <a target="_blank" href="http://yahooeng.tumblr.com">New development has stopped since August 29th, 2014</a>.
+                  Создан Yahoo!, YUI - бесплатная библиотека с открытым исходным кодом. Использует набор решений на  JavaScript и CSS  для построения интерфейса интерактивных веб приложений. <a target="_blank" href="http://yahooeng.tumblr.com">Разработка прекращена 29го августа 2014</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -510,7 +513,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Zepto is a minimalist JavaScript library for modern browsers with a largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.
+                  Zepto - минималистичная JavaScript библиотека для современных браузеров. По-большей части имеет jQuery-совместимое API. Если вы пользовались jQuery, то вы уже знаете как работать с Zepto.
                 </p>
                 <section class="txt">
                     <ul>
@@ -519,7 +522,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Dojo is a free, open-source JavaScript toolkit for building high performance web applications. Project sponsors include IBM and SitePen.
+                  Dojo - бесплатный инструмент с открытым исходным кодом для построения высокопроизводительных веб-приложений. Проект спонсируется IBM и SitePen.
                 </p>
                 <section class="txt">
                     <ul>
@@ -528,7 +531,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Underscore.js is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects.
+                  Underscore.js - JS библиотека, которая предоставляет полный набор разнообразных вспомогательных функций без изменения встроенных объектов.
                 </p>
                 <h3>MV*</h3>
                 <section class="txt">
@@ -538,7 +541,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Very popular JavaScript client-side framework, built by <a target="_blank" href="http://twitter.com/jashkenas">@jashkenas</a>.
+                  Очень популярный JavaScript клиент-серверный фреймворк, созданный <a target="_blank" href="http://twitter.com/jashkenas">@jashkenas</a>.
                 </p>
                 <section class="txt">
                     <ul>
@@ -547,7 +550,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Built by <a target="_blank" href="http://twitter.com/wycats">@wycats</a>, jQuery and Ruby on Rails core developer.
+                  Создан <a target="_blank" href="http://twitter.com/wycats">@wycats</a>, который является значимым разрабочиком jQuery и Ruby on Rails.
                 </p>
                 <section class="txt">
                     <ul>
@@ -556,7 +559,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Simplify dynamic JavaScript UIs by applying the Model-View-View Model (MVVM).
+                  Упрощает построение динамических интерфейсов посредством использования  паттерна Model-View-View Model (MVVM).
                 </p>
                 <section class="txt">
                     <ul>
@@ -565,7 +568,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Built by Google, Angular.js is like a polyfill for the future of HTML.
+                  Создан командой из Google. Angular.js похож на полифилл для будущих версий HTML.
                 </p>
                 <section class="txt">
                     <ul>
@@ -574,7 +577,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  One framework.Mobile &amp; desktop. One way to build applications with Angular and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.
+                  Framework.Mobile и рабочий стол. Один из способов создания приложений с угловым и использовать навыки и программный код для создания приложений для каждой цели развертывания. Для веб-страниц, мобильный Интернет, мобильный телефон родной и родной рабочий стол.
                 </p>
                 <section class="txt">
                     <ul>
@@ -583,7 +586,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Cappuccino is an open-source framework that makes it easy to build desktop-caliber applications that run in a web browser.
+                  Cappuccino проект с открытым кодом, который позволяет легко создавать приложения, похожие на десктопный, но так чтобы они работали в браузере.
                 </p>
                 <section class="txt">
                     <ul>
@@ -592,7 +595,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  JavaScriptMVC is an open-source framework containing the best ideas in jQuery development.
+                  JavaScriptMVC проект с открытым кодом который сочетает в себе лучшие идеи разработки на jQuery.
                 </p>
                 <section class="txt">
                     <ul>
@@ -601,7 +604,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Meteor is an open-source platform for building top-quality web apps in a fraction of the time, whether you're an expert developer or just getting started.
+                  Meteor - opensource проект для создания высококачественных веб-приложений. Доступен как опытным разработчикам так и новичкам.
                 </p>
                 <section class="txt">
                     <ul>
@@ -610,7 +613,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Spice is a super minimal (&lt; 3k) and flexible MVC framework for javascript. Spice was built to be easily added to any existent application and play well with other technologies such as jQuery, pjax, turbolinks, node or whatever else you are using.
+                  Spice - супер минималистичный (&lt; 3k) и гибкий MVC фреймворк для javascript. Spice был создан для быстрого добавления к существующим приложениям и хорошо сочетается с jQuery, pjax, turbolinks, node или что там еще вами используется.
                 </p>
                 <section class="txt">
                     <ul>
@@ -619,7 +622,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Riot is an incredibly fast, powerful yet tiny client side (MV*) library for building large scale web applications. Despite the small size all the building blocks are there: a template engine, router, event library and a strict MVP pattern to keep things organized.
+                  Riot - невероятно быстрая, мощная и маленькая библиотека, для использования паттерна  (MV*) в построении расширяемых веб приложений. Несмотря на маленький размер содержит все необходимое - шаблонизатор, роутер, событийную модель и строгий MVP для организации структуры приложения.
                 </p>
                 <section class="txt">
                     <ul>
@@ -628,9 +631,9 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  CanJS is a JavaScript framework that makes developing complex applications simple and fast. Easy-to-learn, small, and unassuming of your application structure, but with modern features like custom tags and 2-way binding.
+                  CanJS - JavaScript фреймворк, который делает разработку сложных приложений простой и быстрой. Легкий в освоении, маленький, нетребовательный к архитектуре вашего приложения, но с современными подходыми вроде пользовательских тегов и двустороннего биндинга
                 </p>
-                <h3>Library</h3>
+                <h3>Библиотеки</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://facebook.github.io/react">React</a></li>
@@ -638,7 +641,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC.
+                  Создана Facebook. React - это Javascript библиотека для создания пользовательского интерфейса в Facebook и Instagram. Многие люди предпочитают рассматривать React как V в MVC.
                 </p>
                 <section class="txt">
                     <ul>
@@ -647,7 +650,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Is an MVVM library providing two-way data binding, HTML extended behaviour (through directives) and reactive components. By using native add-ons a developer can also have routing, AJAX, a Flux-like state management, form validation and more. Provides a helpful Chrome extension to inspect components built with Vue.
+                  MVVM библиотека обеспечивающая двустороннее связывание, расширение HTML посредством директив и реактивные компоненты. Используя дополнения разработчик так же получает роутинг, AJAX запрос, Flux-подобное управление состоянием, валидацию форм и многое другое. В наличии полезное расширение для Chrome, позволяющее инспектировать компоненты созданные на Vue.
                 </p>
                 <section class="txt">
                     <ul>
@@ -656,7 +659,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Handlebars provides the power necessary to let you build semantic templates effectively with no frustration.
+                  Handlebars - мощный и гибкий инструмент, позволяющий создавать семантические шаблоны (с использованием компонент/вспомогательных тегов).
                 </p>
                 <section class="txt">
                     <ul>
@@ -665,9 +668,9 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Asynchronous templates for the browser and node.js.
+                  Асинхронный шаблонизатор для браузера и  node.js.
                 </p>
-                <h3>Animation</h3>
+                <h3>Анимации</h3>
                 <section class="txt">
                     <ul>
                         <li><a target="_blank" href="http://greensock.com/">GSAP</a></li>
@@ -675,7 +678,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  GSAP is the fastest full-featured scripted animation tool on the planet. It's even faster than CSS3 animations and transitions in many cases.
+                  GSAP самый быстрый и полнофункциональный инструмент. Он во многих случаях даже быстрее CSS3 анимации и переходов.
                 </p>
                 <section class="txt">
                     <ul>
@@ -684,7 +687,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Velocity is an animation engine with the same API as jQuery's $.animate().
+                  Velocity - библиотека для анимации с тем же  API что и $.animate() из jQuery.
                 </p>
                 <section class="txt">
                     <ul>
@@ -693,7 +696,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Bounce.js is a tool and JS library that lets you create beautiful CSS3 powered animations.
+                  Bounce.js - библиотека позволяющая задавать анимации, на базе CSS3.
                 </p>
                 <section class="txt">
                     <ul>
@@ -702,7 +705,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  A simple but powerful JavaScript library for tweening and animating HTML5 and JavaScript properties.
+                  Простая, но мощная, Javascript библиотека для изменения и анимирования HTML5.
                 </p>
                 <section class="txt">
                     <ul>
@@ -711,7 +714,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Move.js is a small JavaScript library making CSS3 backed animation extremely simple and elegant.
+                  Move.js - маленькая JavaScript библиотека делающая анимации на базе CSS3 простыми и элегантными.
                 </p>
                 <section class="txt">
                     <ul>
@@ -720,7 +723,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  SVG is an excellent way to create interactive, resolution-independent vector graphics that will look great on any size screen.
+                  SVG - прекрасный способ реализовать взаимодействие с пользователем, векторная графика, которая не зависит от разрешения и размера экрана.
                 </p>
                 <section class="txt">
                     <ul>
@@ -729,7 +732,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Rekapi is a library for making canvas and DOM animations with JavaScript, as well as CSS @keyframe animations for modern browsers.
+                  Rekapi - библиотека для создания анимации на базе canvas или DOM, так же хорошо как CSS @keyframe анимации в современных браузерах.
                 </p>
                 <section class="txt">
                     <ul>
@@ -738,7 +741,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Make use of your favicon with badges, images or videos.
+                  Позволяет использовать в качестве favicon  спрайты, картинки или видео.
                 </p>
                 <section class="txt">
                     <ul>
@@ -747,7 +750,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Textillate.js combines some awesome libraries to provide a ease-to-use plugin for applying CSS3 animations to any text.
+                  Textillate.js - набор прикрасных библиотек предоставляющий легкие в использовании расширения для применения CSS3 анимации к любому тексту.
                 </p>
                 <section class="txt">
                     <ul>
@@ -756,7 +759,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Motio is a small JavaScript library for simple but powerful sprite based animations and panning.
+                  Motio - маленькая JavaScript библиотека для простой, но мощной анимации и панарам на базе спрайтов.
                 </p>
                 <section class="txt">
                     <ul>
@@ -765,7 +768,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  With Anima it's easy to animate over a hundred objects at a time. Each item can have it's mass and viscosity to emulate reallife objects!
+                  С Anima очень легко анимировать сотни объектов. Каждый объект может иметь свои характеристики, что упрощает моделирование объектов реального мира.
                 </p>
             </div>
         </section>
@@ -773,7 +776,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="game-engines">
             <div class="wrapper">
-                <h1><a href="#game-engines">GAME ENGINES</a></h1>
+                <h1><a href="#game-engines">ИГРОВЫЕ ДВИЖКИ</a></h1>
 
                 <br>
                 <section class="txt">
@@ -783,7 +786,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  MelonJS is a free, light-weight HTML5 game engine. The engine integrates the tiled map format making level design easier.
+                  MelonJS - бесплатный и легковесный HTML5 игровой движок. Движок интеграрован с тайловыми картами, что делает разработку уровней еще проще.
                 </p>
                 <section class="txt">
                     <ul>
@@ -792,7 +795,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  ImpactJS is one of the more tested-and-true HTML5 game engines with the initial release all the way back at the end of 2010. It is very well maintained and updated, and has a good-sized community backing it. There exists plenty of documentation - even two books on the subject of creating games with the engine.
+                  ImpactJS - один из самый проверенных и надежных движков для создания игр на HTML5. Первая версия вышла еще в конце 2010 года. Он прекрасно поддерживается и регулярно обновляется, имеет приличных размеров сообщество, которое его поддерживает. Сущестует достаточное колличество документации - даже две книги по созданию игр на этом движке.
                 </p>
                 <section class="txt">
                     <ul>
@@ -801,7 +804,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  LimeJS is a HTML5 game framework for building fast, native-experience games for all modern touchscreens and desktop browsers.
+                  LimeJS - это фреймворк для создания быстрых HTML5 игр, с качественной поддержкой сенсорных экранов и десктопных браузеров.
                 </p>
                 <section class="txt">
                     <ul>
@@ -810,7 +813,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Crafty is a game engine that dates back to late 2010. Crafty makes it really easy to get started making JavaScript games.
+                  Crafty - игровой движок, который берет начало из конца 2010 года. Его создали чтобы начать делать игры на Javascript было действительно просто.
                 </p>
                 <section class="txt">
                     <ul>
@@ -819,7 +822,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Cocos2d-html5 is an open-source web 2D game framework, released under MIT License. It is a HTML5 version of Cocos2d-x project. The focus for Cocos2d-html5 development is around making Cocos2d cross platforms between browsers and native application.
+                  Cocos2d-html5 - игровой 2D движек с открытым исходным кодом, распространяется под MIT лицензией. Это HTML5 версия проекта Cocos2d. Основное внимание при разработке Cocos2d-html5 уделено тому, чтобы сделать проект кроссплатформенным и доступным в разных браузерах и мобильных приложениях.
                 </p>
                 <section class="txt">
                     <ul>
@@ -828,7 +831,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Phaser is based heavily on <a target="_blank" href="http://www.flixel.org">Flixel</a>. It is maintained by Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>) who has been very active in the HTML5 community for years.
+                  Phaser в большой степени опирается на <a target="_blank" href="http://www.flixel.org">Flixel</a>. Он поддерживается Richard Davey (<a target="_blank" href="http://www.photonstorm.com/">Photon Storm</a>), который долгие годы был очень активным участником HTML5 сообщества.
                 </p>
                 <section class="txt">
                     <ul>
@@ -837,7 +840,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Goo is a 3D JavaScript gaming engine entirely built on WebGL/HTML5
+                  Goo - это 3D игровой движок на JavaScript полностью построенный на WebGL/HTML5.
                 </p>
                 <section class="txt">
                     <ul>
@@ -846,7 +849,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  LycheeJS is a JavaScript Game library that offers a complete solution for prototyping and deployment of HTML5 Canvas, WebGL or native OpenGL(ES) based games inside the Web Browser or native environments.
+                  LycheeJS - это JavaScript библиотека, предлагающая комплексное решение для создания и развертывания прототипов HTML5 игр с использованием Canvas, WebGL или нативного OpenGL(ES). Поддерживаются как игры для веб-браузеров так и для мобильных приложений.
                 </p>
                 <section class="txt">
                     <ul>
@@ -855,7 +858,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Quintus is an HTML5 game engine designed to be modular and lightweight, with a concise JavaScript-friendly syntax.
+                  Quintus - это игровой движок для HTML5. Легковесный, модульный, с понятным Javascript API.
                 </p>
                 <section class="txt">
                     <ul>
@@ -864,7 +867,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Kiwi.js is a fun and friendly Open Source HTML5 Game Engine. Some people call it the WordPress of HTML5 game engines
+                  Kiwi.js - забавный и дружелюбный игровой движок с открытым исходным кодом. Некоторые называют его WordPress в мире игровых движков для HTML5.
                 </p>
                 <section class="txt">
                     <ul>
@@ -873,7 +876,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering.
+                  Panda.js - это игровой движок для HTML5 под мобильные устройства и десктопные браузеры с поддержкой рендеринга через Canvas и WebGL.
                 </p>
                 <section class="txt">
                     <ul>
@@ -882,7 +885,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment.
+                  Rot.js - набор Javascript библиотек, призванный помочь с разработкой ролевых игр (roguelike) для браузеров.
                 </p>
                 <section class="txt">
                     <ul>
@@ -891,7 +894,7 @@ It is an important concept to understand as it can be useful during development,
                 </section>
 
                 <p class="source">
-                  Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. 
+                  Isogenic - продвинутый игровой движок, который обеспечивает поддержку соверменных сетей и возможностей HTML5 для разработки многопользовательских игр c взаимодействием в реальном времени. Система основана на потоковой передаче данных и включает в себя мощные возможности по моделированию на стороне клиента на основе дельт-обновлений (передача изменений состояния).
                 </p>
 
             </div>
@@ -907,9 +910,9 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="news">
             <div class="wrapper">
-                <h1><a href="#news">News</a></h1>
+                <h1><a href="#news">Где можно следить за новостями?</a></h1>
 
-                <h3>Websites</h3>
+                <h3>Вебсайты</h3>
                 <div class="links-container">
                     <p class="source link">
                         <a href="http://javascript.com" target="_blank">JavaScript.com</a>
@@ -933,7 +936,7 @@ It is an important concept to understand as it can be useful during development,
                         <a href="http://paper.li/gwinnem/1390553142" target="_blank">AngularJS Daily</a>
                     </p>
                 </div>
-                <h3>Newsletter</h3>
+                <h3>Рассылки</h3>
                 <div class="links-container">
                     <p class="source link">
                         <a href="http://javascriptweekly.com" target="_blank">JavaScript Weekly</a>
@@ -972,9 +975,9 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="reading">
             <div class="wrapper">
-                <h1><a href="#reading">Reading</a></h1>
+                <h1><a href="#reading">Что стоит прочитать?</a></h1>
 
-                <h3>Articles</h3>
+                <h3>Статьи</h3>
 
 
                 <section class="txt">
@@ -1088,7 +1091,7 @@ It is an important concept to understand as it can be useful during development,
 
 
 
-                <h3>Books</h3>
+                <h3>Книги</h3>
 
 
                 <section class="txt">
@@ -1345,7 +1348,7 @@ It is an important concept to understand as it can be useful during development,
 
 
 
-                <h3>Free E-Books</h3>
+                <h3>Бесплатные электронные книги</h3>
 
 
                 <section class="links-container">
@@ -1359,7 +1362,7 @@ It is an important concept to understand as it can be useful during development,
 
                 </section>
 
-                <h3>Portals</h3>
+                <h3>Порталы</h3>
 
 
                 <section class="links-container">
@@ -1400,7 +1403,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="podcasts">
             <div class="wrapper">
-                <h1><a href="#podcasts">Podcasts</a></h1>
+                <h1><a href="#podcasts">Подкасты</a></h1>
 
                 <br><br>
                 <div class="links-container">
@@ -1431,7 +1434,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="screencasts">
             <div class="wrapper">
-                <h1><a href="#screencasts">Screencasts</a></h1>
+                <h1><a href="#screencasts">Скринкасты</a></h1>
 
                 <div class="screencasts-container">
                     <a href="https://egghead.io" target="_blank">
@@ -1459,7 +1462,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="whotofollow">
             <div class="wrapper">
-                <h1><a href="#whotofollow">Who To Follow</a></h1>
+                <h1><a href="#whotofollow">К кому стоит присмотреться</a></h1>
 
                 <div class="users"></div>
             </div>
@@ -1467,7 +1470,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="paas">
             <div class="wrapper">
-                <h1><a href="#paas">PaaS Provider</a></h1>
+                <h1><a href="#paas">Облачные сервисы</a></h1>
 
                 <br><br>
                 <section class="links-container">
@@ -1497,7 +1500,7 @@ It is an important concept to understand as it can be useful during development,
 
         <section class="section" id="helpers">
             <div class="wrapper">
-                <h1><a href="#helpers">Helpers</a></h1>
+                <h1><a href="#helpers">Утилиты</a></h1>
 
                 <div class="helpers-container">
 
@@ -1564,7 +1567,7 @@ It is an important concept to understand as it can be useful during development,
         <section class="section" id="footer">
             <div class="wrapper">
                 <div class="bio">
-                    <h3>Created and maintained by</h3>
+                    <h3>Создано и поддерживается</h3>
                     <a class="william" href="https://github.com/gnuwilliam">
                         <img src="https://0.gravatar.com/avatar/05671f27a334fd17b787a88bf3d7d5b8?d=https%3A%2F%2Fidenticons.github.com%2Fdf5529fee499f928d4cfe6ffdac9d89c.png&r=x&s=440" alt="William Oliveira">
                         <b>William Oliveira</b>
@@ -1579,8 +1582,8 @@ It is an important concept to understand as it can be useful during development,
                 <hr>
 
                 <div class="contributors">
-                    <h1>Contributors</h1>
-                    <p>This project wouldn't exist without these amazing contributors. Thank you guys for making this real!</p>
+                    <h1>Участники</h1>
+                    <p>Этот проект не существовал бы без этих замечательных людей. Спасибо, ребята, что воплотили его в жизнь!</p>
                     <div class="users"></div>
                 </div>
 
@@ -1589,7 +1592,7 @@ It is an important concept to understand as it can be useful during development,
                         <img alt="Creative Commons License" style="border-width: 0" src="http://i.creativecommons.org/l/by-nc/4.0/88x31.png">
                     </a>
                     <br>
-                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: The Right Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a>.<br>Licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br>Based on work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
+                    <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">JavaScript: Правильный путь</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/gnuwilliam" target="_blank" property="cc:attributionName" rel="cc:attributionURL">William Oliveira</a>.<br>Licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br>На базе <a xmlns:dct="http://purl.org/dc/terms/" href="http://jstherightway.org" rel="dct:source">http://jstherightway.org</a>.
                 </p>
 
 
